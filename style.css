@@ -1,0 +1,107 @@
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+p {
+	margin: 10px;
+}
+
+h1 {
+	margin: 10px;
+}
+#header01 {
+	background-color: #891f20;
+	width: 20%;
+	top: 0;
+	height: 80px;
+	float: left;
+}
+
+#header02 {
+	background-color: #891f20;
+	width: 80%;
+	top: 0;	
+	color: white;
+	text-align: left;
+	height: 80px;
+	float: right;
+	vertical-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 80px;
+    width: 100%;
+    background-color: #333;
+    height: 50px;
+}
+
+nav li {
+	float: left;
+	border: none;
+}
+
+nav li a {
+	display: block;
+	color: lightgray;
+	text-align: center;
+	padding: 15px 15px;
+	text-decoration: none;
+}
+
+main div div img{
+	max-width: 200px;
+}
+
+#main-boven {
+	top: 130px;
+	height: 180px;
+	margin: 12px 0;
+}
+
+#main-onder {
+	top: 330px;
+	height: 220px;
+	margin:  28px 0;
+}
+
+#blog01 {
+	float: left;
+	max-width: 250px;
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+#blog02 {
+	float: left;
+	max-width: 250px;
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+#blog03 {
+	float: left;
+	max-width: 250px;
+	margin: 10px;
+	font-size: 0.9em;
+}
+
+#blog04 {
+	float: left;
+	max-width: 250px;
+	margin: 10px ;
+	font-size: 0.9em;
+}
+
+footer {
+	position: fixed;
+	bottom:  0;
+	width: 100%;
+	background-color: #891f20;
+	text-align: center;
+	color: white;
+	float: left;
+}
